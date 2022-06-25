@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="calculator">
+            <div id="calculator-screen-container">
+                <span id="calculator-screen">
+                    76 + 87
+                </span>
+            </div>
+            <div id="calculator-body">
+                <button id="clear" class="button button-operation" data-value="clear">AC </button>
+                <button class="button" data-value="change-sign">+/-</button>
+                <button class="button" data-value="%">% </button>
+                <button class="button button-operation" data-value="divide">/</button>
+                <br>
+
+                <button class="button button-numeral" data-value="7"> 7 </button>
+                <button class="button button-numeral" data-value="8">8 </button>
+                <button class="button button-numeral" data-value="9">9 </button>
+                <button class="button button-operation" data-value="multiply">* </button>
+                <br>
+
+                <button class="button button-numeral" data-value="4"> 4 </button>
+                <button class="button button-numeral" data-value="5">5 </button>
+                <button class="button button-numeral" data-value="6">6 </button>
+                <button class="button button-operation" data-value="minus">-</button>
+                <br>
+
+                <button class="button button-numeral" data-value="1">1 </button>
+                <button class="button button-numeral" data-value="2">2 </button>
+                <button class="button button-numeral" data-value="3">3 </button>
+                <button class="button button-operation" data-value="plus">+</button>
+                <br>
+
+                <button class="button button-numeral" data-value="0">0 </button>
+                <button id="button-decimal" class="button" data-value="decimal">.</button>
+                <button id="button-evaluate" class="button" data-value="equals">=</button>
+                <br>
+
+            </div>
+        </div>
+
+
+        <p id="test"></p>
+
+
+        <script type="text/javascript" src="logic.js"></script>
+    </body>
+</html>
